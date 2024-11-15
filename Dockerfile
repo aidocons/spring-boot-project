@@ -29,7 +29,7 @@ WORKDIR /app
 COPY --from=builder /app/target/*.jar /app/tpFoyer-17.jar
 
 # Expose the application port (adjust as per your app's port)
-EXPOSE 8082
+EXPOSE 8083
 
 # Command to run the JAR file when the container starts
 ENTRYPOINT ["java", "-jar", "/app/tpFoyer-17.jar"]

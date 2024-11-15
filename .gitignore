@@ -71,3 +71,6 @@ terraform.rc
 savvy.tfstate:Zone.Identifier
 ifb.tfstate:Zone.Identifier
 temp.txt
+
+**/kubconfig
+**/sonarqube
